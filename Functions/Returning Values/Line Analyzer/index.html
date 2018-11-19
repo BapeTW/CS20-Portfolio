@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Line Analyzer</title>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+
+<body>
+  <main>
+    <h1>Line Analyzer</h1>
+    
+    <!-- LINE 1 DATA -->
+    <div id="line1">
+      <h2>Line 1</h2>
+      
+      <p>
+        Length: <span id="l1Length">---</span><br> 
+        MidPoint: <span id="l1MidPoint">---</span><br> 
+        Slope: <span id="l1Slope">---</span><br> 
+        Description: <span id="l1Description">---</span><br> 
+        Domain: <span id="l1Domain">---</span><br> 
+        Range: <span id="l1Range">---</span><br> 
+        Equation: <span id="l1Equation">---</span>
+      </p>
+    </div>
+
+    <div id="cnvContainer"></div>
+
+    <!-- LINE 2 DATA -->
+    <div id="line2">
+      <h2>Line 2</h2>
+          
+      <p>
+        Length: <span id="l2Length">---</span><br> 
+        MidPoint: <span id="l2MidPoint">---</span><br> 
+        Slope: <span id="l2Slope">---</span><br> 
+        Description: <span id="l2Description">---</span><br> 
+        Domain: <span id="l2Domain">---</span><br> 
+        Range: <span id="l2Range">---</span><br> 
+        Equation: <span id="l2Equation">---</span>
+      </p>
+    </div>
+	  
+    <p><button id="refresh">Refresh Data</button></p>
+  </main>
+
+  <!--  Load JavaScript  -->
+  <script src="js/p5.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/grapher.js"></script>
+  <script src="js/sketch.js"></script>
+  <script src="solutions.js"></script>
+
+</body>
+
+</html>
